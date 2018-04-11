@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "798320377136",
+    "firebase_url": "https://trackmystuff-dc5fb.firebaseio.com",
+    "project_id": "trackmystuff-dc5fb",
+    "storage_bucket": "trackmystuff-dc5fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798320377136:android:8f5e2eb61a68bfe4",
+        "android_client_info": {
+          "package_name": "com.example.trackmystuff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798320377136-8bfr3opre8u9842qfvbje90bo4qs10up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trackmystuff",
+            "certificate_hash": "1765971162c7b6f49484c312fd530b85d5f36a9d"
+          }
+        },
+        {
+          "client_id": "798320377136-grh7osu35q76ucgrk6r01627ss1vja6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4eNo1u-UTjrlHdC020Impwg_nY6Z3avY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798320377136-grh7osu35q76ucgrk6r01627ss1vja6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

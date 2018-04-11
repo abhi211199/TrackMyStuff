@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trackmystuff.InfoActivity">
+
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="365dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="TrackMyStuff-an app which provides security to any damn stuff of yours, be it a backpack or vehices!!"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="360dp"
+        android:layout_height="265dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:text="1.TrackMyStuff uses your GPS and location services to track real-time location. "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.TrackMyStuff uses your INTERNET connection to upload location data to it's database. If the internet connection fails in any of the two phones, the application will not work properly,  TrackMyStuff is not responsible for that!"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.TrackMyStuff uses your loaction data and Internet,so it is desirable that thebattery may go down frequently, so its suggested that the mobiles are charged frequently."
+                android:textSize="20dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/tc"
+        android:layout_width="354dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="TERMS AND CONDITIONS"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <CheckBox
+        android:id="@+id/accept"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="8dp"
+        android:text="I Accept the TERMS and CONDITIONS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="8dp"
+        android:onClick="fx"
+        android:text="GO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>
